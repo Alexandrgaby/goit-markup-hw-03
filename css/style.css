@@ -11,16 +11,41 @@ body {
   font-family: "Roboto", "raleway", sans-serif;
   color: var(--main-text-color);
   font-style: normal;
+}
+
+/* Index */
+.container {
   width: 1200px;
 }
-/* Index */
-.main-banner {
+.page-header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  .justify-content: space-around;
+  .flex-wrap: wrap;
+  .flex-grow: 1;
+}
+.header-list {
+  display: flex;
+  gap: 50px;
+  flex-grow: 1;
+  margin-right: px;
+}
+.header-list-right {
+  display: flex;
+  gap: 40px;
+  flex-grow: 1;
+  margin-right: px;
+}
+.main-banner {
   background-color: #2f303a;
   height: 600px;
 }
 h1 {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
   font-family: inherit;
   font-style: normal;
   font-weight: 900;
@@ -31,36 +56,84 @@ h1 {
   text-transform: uppercase;
   color: var(--background-color);
 }
+.button-index-page {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+}
+.button-index-page > p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
 .main-core-strengths {
   display: flex;
   flex-direction: row;
   gap: 30px;
+}
+.main-strengths-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-text-color);
+}
+.main-strengths-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--contacts-and-links-color);
 }
 .main-activities {
   display: flex;
   flex-direction: row;
   gap: 30px;
 }
+.main-activities-staff-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
 .main-staff {
   display: flex;
   flex-direction: row;
   gap: 30px;
 }
-.main-banner-font-title {
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+.main-staff-card {
+  background: var(--background-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
-.main-banner-font-text {
-  font-family: inherit;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
+.main-staff-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--main-text-color);
+}
+.main-staff-occupation {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--contacts-and-links-color);
 }
 /*Portofolio */
 .logo {
