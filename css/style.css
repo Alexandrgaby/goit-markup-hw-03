@@ -113,6 +113,7 @@ h1 {
 .staff-section {
   background-color: #f5f4fa;
   height: 600px;
+  width: 1212px;
 }
 .our-team-title {
   padding-top: 70px;
@@ -254,6 +255,7 @@ h1 {
 .footer-page {
   background-color: var(--background-footer-color);
   height: 250px;
+  width: 1212px;
 }
 .list-content {
   list-style: none;
