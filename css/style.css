@@ -20,23 +20,21 @@ body {
 .page-header {
   display: flex;
   flex-direction: row;
-  .justify-content: space-around;
-  .flex-wrap: wrap;
-  .flex-grow: 1;
+  padding-left: 50px;
+  align-items: center;
 }
 .header-list {
   display: flex;
   gap: 50px;
-  flex-grow: 1;
-  margin-right: px;
+  padding-left: 100px;
 }
 .header-list-right {
   display: flex;
   gap: 40px;
-  flex-grow: 1;
-  margin-right: px;
+  padding-left: 280px;
 }
 .main-banner {
+  display: flex;
   background-color: #2f303a;
   height: 600px;
 }
@@ -44,7 +42,7 @@ h1 {
   position: absolute;
   width: 696px;
   height: 120px;
-  left: 452px;
+  left: 260px;
   top: 280px;
   font-family: inherit;
   font-style: normal;
@@ -60,8 +58,8 @@ h1 {
   position: absolute;
   width: 200px;
   height: 50px;
-  left: 700px;
-  top: 430px;
+  left: 510px;
+  top: 460px;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -79,6 +77,8 @@ h1 {
   display: flex;
   flex-direction: row;
   gap: 30px;
+  padding-top: 67px;
+  padding-bottom: 51px;
 }
 .main-strengths-title {
   font-weight: 700;
@@ -99,6 +99,7 @@ h1 {
   display: flex;
   flex-direction: row;
   gap: 30px;
+  padding-bottom: 70px;
 }
 .main-activities-staff-title {
   font-weight: 700;
@@ -107,11 +108,21 @@ h1 {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+  padding-bottom: 21px;
+}
+.staff-section {
+  background-color: #f5f4fa;
+  height: 600px;
+}
+.our-team-title {
+  padding-top: 70px;
 }
 .main-staff {
   display: flex;
   flex-direction: row;
   gap: 30px;
+  padding-bottom: 40px;
+  padding-top: 20px;
 }
 .main-staff-card {
   background: var(--background-color);
@@ -155,6 +166,10 @@ h1 {
   letter-spacing: 0.03em;
   color: var(--background-color);
   text-decoration: none;
+  padding-left: 35px;
+}
+.footer-content {
+  padding-top: 37px;
 }
 .logo-footer-first-word,
 .logo-first-word {
@@ -238,6 +253,7 @@ h1 {
 }
 .footer-page {
   background-color: var(--background-footer-color);
+  height: 250px;
 }
 .list-content {
   list-style: none;
