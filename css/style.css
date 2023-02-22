@@ -31,12 +31,11 @@ body {
 }
 .page-header {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
   margin: 0 auto;
   align-items: center;
   border-bottom: 1px solid #ececec;
   flex-shrink: 1;
-  width: 1200px;
 }
 .header-list {
   display: flex;
@@ -47,7 +46,7 @@ body {
 .header-list-right {
   display: flex;
   gap: 40px;
-  padding-left: 280px;
+  margin-left: 300px;
   flex-shrink: 1;
 }
 .link {
@@ -81,7 +80,7 @@ body {
   list-style: none;
 }
 .footer-adress-contacts-container {
-  margin-right: 1100px;
+  margin-right: 1035px;
 }
 
 .logo-footer {
@@ -178,7 +177,6 @@ h1 {
 }
 .main-core-strengths {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   gap: 30px;
 }
@@ -215,6 +213,7 @@ h1 {
   line-height: 42px;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+  margin-bottom: 45px;
 }
 .staff-section {
   display: flex;
